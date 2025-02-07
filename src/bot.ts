@@ -50,9 +50,9 @@ function displayPresence(client: Client) {
   client.user?.setPresence({
     activities: [
       {
-        name: "S42",
+        name: "Placeholder",
         type: ActivityType.Watching,
-        state: "Guckt neustes Video!",
+        state: "Placeholder!",
       },
     ],
     status: "online",
