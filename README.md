@@ -1,4 +1,4 @@
-# Discord Bot with MongoDB
+# 42er-System
 
 A easy to host feature-rich Discord bot built with Discord.js and MongoDB, offering moderation, giveaways,leveling system and more.
 
