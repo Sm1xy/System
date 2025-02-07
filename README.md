@@ -81,3 +81,8 @@ Standart Docker Container Name:
 
 ## License
 This Project is licensed under a MIT License to see more details have a look at the [LICENSE](LICENSE)
+
+
+### Discord(s) the bot is used in
+
+[42er Unity](https://discord.gg/JRjYJPaZjN)
