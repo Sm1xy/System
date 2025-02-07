@@ -1,6 +1,6 @@
 # Discord Bot with MongoDB
 
-A feature-rich Discord bot built with Discord.js and MongoDB, offering moderation, giveaways, and leveling systems.
+A easy to host feature-rich Discord bot built with Discord.js and MongoDB, offering moderation, giveaways,leveling system and more.
 
 ## Features
 
@@ -9,6 +9,25 @@ A feature-rich Discord bot built with Discord.js and MongoDB, offering moderatio
   - Kick
   - Mute/Unmute
   - Role management
+
+- **Voice System**
+  - Create temporary voice channels
+  ### WORK IN PROGRESS
+  - _Voice channel management_
+  - _Custom voice channel names_
+  - _User limit controls_
+
+- **Roleplay System**
+  - Character creation and management
+  - Dice rolling and random events
+  - Inventory system
+  - Character stats tracking
+
+- **Ticket System**
+  - Create support tickets
+  - Ticket categories
+  - Auto-assignment to staff
+  - Ticket logging and archives
 
 - **Giveaway System**
   - Create giveaways with custom duration and prizes
