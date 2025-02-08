@@ -58,11 +58,11 @@ export default class WelcomeMSG extends UserEvent<[GuildMember]> {
 
     const welcomeEmbed = new EmbedBuilder()
       .setColor("#5A09C1")
-      .setTitle(`Wilkommen zur 42er Unity, ${member.displayName}!`)
-      .setDescription(`Wilkommen zum 42er Unity Discord Server 🎉\n`)
+      .setTitle(`Wilkommen zu Smixys Community, ${member.displayName}!`)
+      .setDescription(`Wilkommen zum Community Discord Server 🎉\n`)
       .setImage("attachment://welcome-image.png")
       .setFooter({
-        text: "42er Unity",
+        text: "Smixys Community",
         iconURL: member.guild.iconURL() || undefined,
       });
 
