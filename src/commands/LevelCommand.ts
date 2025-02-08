@@ -88,6 +88,7 @@ export class LevelCommand implements Command {
       const radius = avatarSize / 2;
 
       const palette = await Vibrant.from(avatarURL).getPalette();
+
       if (palette?.Vibrant) {
         mainColor = palette.Vibrant.getHex();
       } else if (palette?.Muted) {
