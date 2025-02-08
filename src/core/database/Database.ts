@@ -5,7 +5,7 @@ import client from "../../bot";
 
 dotenv.config();
 
-const databaseName = "UNITYDiscordDB"; // Updated database name
+const databaseName = process.env.DB_NAME!;
 const uri = `mongodb+srv://${process.env.DB_USER!}:${process.env.DB_PASSWORD!}@${process.env.DB_CLUSTER!}/${databaseName}?retryWrites=true&w=majority&appName=${process.env.DB_APP_NAME!}`;
 const mongoClient = new MongoClient(uri);
 
