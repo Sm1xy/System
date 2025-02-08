@@ -6,7 +6,7 @@ import client from "../../bot";
 dotenv.config();
 
 const databaseName = process.env.DB_NAME!;
-const uri = `mongodb+srv://${process.env.DB_USER!}:${process.env.DB_PASSWORD!}@${process.env.DB_CLUSTER!}/${databaseName}?retryWrites=true&w=majority&appName=${process.env.DB_APP_NAME!}`;
+const uri = process.env.MONGODB_URI!;
 const mongoClient = new MongoClient(uri);
 
 let database: Db;
