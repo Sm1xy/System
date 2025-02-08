@@ -35,7 +35,7 @@
     "mongoose": "^8.9.2",
     "node-cache": "^5.1.2",
     "node-fetch": "^3.3.2",
-    "node-vibrant": "^4.0.3",
+    "node-vibrant": "^3.1.6",
     "npmlog": "^7.0.1",
     "phin": "^3.7.1",
     "redis": "^4.7.0",
