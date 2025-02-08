@@ -18,10 +18,7 @@ A easy to host feature-rich Discord bot built with Discord.js and MongoDB, offer
   - _User limit controls_
 
 - **Roleplay System**
-  - Character creation and management
-  - Dice rolling and random events
-  - Inventory system
-  - Character stats tracking
+- /rp command to send gifs with any emotion that is given
 
 - **Ticket System**
   - Create support tickets
